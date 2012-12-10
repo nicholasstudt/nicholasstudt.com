@@ -1,4 +1,4 @@
-# This is data for my [site](http://nicholasstudt.com)
+# This is data for my [site](http://nicholasstudt.com).
 
 This is converted by [jekyll](http://jekyllrb.com/) into the my site.
 
