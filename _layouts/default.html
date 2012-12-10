@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>{{ page.title }} - {{ site.title }}</title>
+
+<link rel="shortcut icon" href="/favicon.ico"> 
+<link rel="alternate" type="application/rss+xml" title="Journal RSS"
+	href="/atom.xml">
+
+<link rel="stylesheet" href="/ui/css/core.css">
+</head>
+
+<body>
+
+<header>
+	<a href="/">Nicholas<span class="lastname">Studt</span></a>
+</header>
+
+<nav>
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="/about/">About</a></li>
+		<li><a href="/archive/">Archive</a></li>
+		<li><a href="/code/">Code</a></li>
+	</ul>
+</nav>
+
+<section>
+{{ content }}
+</section>
+
+<footer>
+	<p>
+		Copyright 2001-2012
+		<a href="mailto:nicholas@nicholasstudt.com">Nicholas Studt</a>
+	</p>
+</footer>
+
+<!-- Begin Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6749165-1");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+<!-- End Google Analytics -->
+
+</body>
+</html>

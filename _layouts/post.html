@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="blog_entry">
+<h2 class="topic"><a href="{{ page.url }}">{{ page.title }}</a>
+	<span class="date">{{ page.date | date_to_string }}</span>
+</h2>
+
+<div id="post" class="content">
+{{ content }}
+
+<div class="byline"> </div>
+<div class="tags">
+Tags: {{ page.tags| array_to_sentence_string }}
+</div>
+
+</div>
+
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    {% for post in site.related_posts limit:3 %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a
+      href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+</div>
