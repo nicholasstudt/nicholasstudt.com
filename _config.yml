@@ -12,3 +12,5 @@ author :
  twitter : NicholasStudt
  linkedin : nicholasstudt
  facebook: nicholas.studt
+
+exclude: README.md
