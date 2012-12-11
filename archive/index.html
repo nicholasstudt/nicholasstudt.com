@@ -3,8 +3,13 @@ layout: default
 title: Archive
 ---
 
+
 <div class="blog_archive">
+
 <h1>Archives</h1>
+
+<div class="column1">
+<h2>By month</h2>
 
 {% assign current_month = site.posts.first.date | date: "%B %Y" %}
 
@@ -25,5 +30,14 @@ title: Archive
 	</li>
 {% endfor %}
 </ul>
+</div>
+
+<div class="column2">
+<h2>By tag</h2>
+<p>
+{% include tag_cloud.html %}
+</p>
+</div>
+
 
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Moving again
-tags: ['']
+tags: ['vanity']
 ---
 
 It's time to update the bookmarks, I've moved domains again. This

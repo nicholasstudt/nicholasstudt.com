@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Che's New Hat
-tags: ['kniting']
+tags: ['knitting']
 ---
 
 ![Che :: Nikon D70](/media/2007/03/che.jpg)

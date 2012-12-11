@@ -1,12 +1,14 @@
 ---
 layout: default
-title: Home
+title: 
 ---
 
 {% for post in site.posts limit:5 %}
-<div id="post" class="grid_6 alpha content">
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  {{ post.content | truncatewords: 100 }}
-  <a id="more" href="{{ post.url }}">Read More &raquo;</a>
-</div>
+ {% include post.html %}
 {% endfor %}
+
+<div class="blog_paginate">
+	<div class="blog_paginate_older">
+		<a href="/archive">Older Entries</a>
+	</div>
+</div>

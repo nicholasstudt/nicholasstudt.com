@@ -112,7 +112,8 @@ section { clear: both; width: 650px; margin: 3em auto; font-size: .9em; line-hei
 section a[href^="http"]:hover { border-bottom: 2px solid #FF9900; }
 section img { 
 	border: 1px solid #BCBCBC; 
-	width: 100%; 
+	width: 100%;  
+	/* margin: .5em auto; */
 	-moz-box-shadow: 10px 10px 5px #888;
 	-webkit-box-shadow: 10px 10px 5px #888;
 	box-shadow: 10px 10px 5px #888; 
@@ -148,13 +149,13 @@ div.blog_archive h2 {
 
 div.blog_archive .column1 {	
 	float: left;
-	width: 45%;
+	width: 70%;
 	margin-bottom: 2em;
 }
 
 div.blog_archive .column2 {
 	float: right;
-	width: 45%;
+	width: 20%;
 	margin-bottom: 2em;
 }
 

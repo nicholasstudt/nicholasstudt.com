@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Recently Updated
-tags: ['']
+tags: ['vanity']
 ---
 
 Earlier this month I moved this domain and Karen's domain from a real

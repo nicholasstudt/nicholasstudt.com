@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Needle Cases
-tags: ['tag']
+tags: ['knitting', 'photos']
 ---
 
 ![Needle Cases :: Nikon D70](/media/2008/01/needlecases.jpg)

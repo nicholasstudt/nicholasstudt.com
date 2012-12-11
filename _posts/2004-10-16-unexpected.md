@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unexpected
-tags: ['phtoos']
+tags: ['photos']
 ---
 
 ![Unexpected :: Nikon D70 : 1/200s : f/6.3 : ISO 200](/media/2004/10/unexpected.jpg)

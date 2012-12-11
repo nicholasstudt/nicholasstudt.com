@@ -4,8 +4,6 @@ permalink: /blog/:year-:month-:day/:title
 title: Nicholas Studt
 production_url: http://nicholasstudt.com
 
-#paginate: 3 //the number of post per page
-
 author : 
  name : Nihcolas Studt
  email : nicholas@nicholasstudt.com
