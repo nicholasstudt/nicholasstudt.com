@@ -11,4 +11,4 @@ author :
  linkedin : nicholasstudt
  facebook: nicholas.studt
 
-exclude: README.md
+exclude: README.md Rakefile
