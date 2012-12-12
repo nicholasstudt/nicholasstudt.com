@@ -6,12 +6,14 @@
 require "jekyll"
 require "yaml"
 
+$cwd = File.dirname(__FILE__)
+
 task :default => :build
  
 desc 'Build site with Jekyll.'
 task :build => :tags do
 	puts "Compiling website..."
-	options = Jekyll.configuration({})
+    options = Jekyll.configuration({'source' => $cwd})
 	@site = Jekyll::Site.new(options)
 	@site.process
 end
@@ -19,16 +21,17 @@ end
 desc 'Generate tags pages'
 task :tags  => :tag_cloud do
   puts "Generating tags..."
+
   require 'rubygems'
   require 'jekyll'
   include Jekyll::Filters
   
-  options = Jekyll.configuration({})
+  options = Jekyll.configuration({'source' => $cwd})
   site = Jekyll::Site.new(options)
   site.read_posts('')
 
   # Remove tags directory before regenerating
-  FileUtils.rm_rf("archive/tags")
+  FileUtils.rm_rf($cwd + "/archive/tags")
 
   site.tags.sort.each do |tag, posts|
     html = <<-HTML
@@ -59,8 +62,8 @@ syntax-highlighting: yes
   </ul>
 HTML
 
-    FileUtils.mkdir_p("archive/tags/#{tag}")
-    File.open("archive/tags/#{tag}/index.html", 'w+') do |file|
+    FileUtils.mkdir_p($cwd + "/archive/tags/#{tag}")
+    File.open($cwd + "/archive/tags/#{tag}/index.html", 'w+') do |file|
       file.puts html
     end
   end
@@ -71,11 +74,12 @@ end
 desc 'Generate tags pages'
 task :tag_cloud do
   puts 'Generating tag cloud...'
+
   require 'rubygems'
   require 'jekyll'
   include Jekyll::Filters
-
-  options = Jekyll.configuration({})
+  
+  options = Jekyll.configuration({'source' => $cwd})
   site = Jekyll::Site.new(options)
   site.read_posts('')
 
@@ -86,7 +90,7 @@ task :tag_cloud do
     font_size = ((20 - 10.0*(max_count-s)/max_count)*2).to_i/2.0
     html << "<a href=\"/archive/tags/#{tag}\" title=\"Postings tagged #{tag}\" style=\"font-size: #{font_size}px; line-height:#{font_size}px\">#{tag}</a> "
   end
-  File.open('_includes/tag_cloud.html', 'w+') do |file|
+  File.open($cwd+'/_includes/tag_cloud.html', 'w+') do |file|
     file.puts html
   end
   puts 'Done.'
