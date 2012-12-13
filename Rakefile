@@ -9,6 +9,11 @@ require "yaml"
 $cwd = File.dirname(__FILE__)
 
 task :default => :build
+
+desc "Serve on Localhost with port 8080"
+task :preview => :tags do
+	sh "jekyll --server 8080 --auto"
+end
  
 desc 'Build site with Jekyll.'
 task :build => :tags do
