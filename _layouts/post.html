@@ -11,10 +11,10 @@ layout: default
 	{{ content }}  
     <div class="byline"></div>
     <div class="tags">
-		Tags: 
-		
+		{% assign tag_count = page.tags | size %}
+		<strong>tag{% if tag_count > 1 %}s{%endif %}:</strong>
 		{% for tag in page.tags %}
-			<a href="/archive/tags/{{ tag }}">{{ tag }}</a>{% if forloop.last %}{% else %}, {% endif %}
+			<a href="/archive/tags/{{ tag }}">#{{ tag }}</a>{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}
 	</div>
   </div>

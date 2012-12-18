@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Open Source Licensing
-tags: ['linux']
+tags: ['*nix']
 ---
 
 The "Open Source" label has become so common that users rarely consider
