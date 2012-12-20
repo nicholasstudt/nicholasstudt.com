@@ -69,66 +69,49 @@ blockquote, dd { margin: 1.23em 2em auto 2em; }
 
 em { font-style: italic; }
 
+
 header {
+	width: 100%;
+	position: fixed;
+	top: 0; left: 0;
 	line-height: 1.5em;
 	border-bottom: 1px solid #E9E9E9;
 	background: #f9f9f9;
-	margin-bottom: 4em;
+}
+
+header div.holder {
+	width: 650px;
+	margin: 0 auto;
+	font-weight: bold;
 }
 
 header div.name { 
-	font-weight: bold;
-	color: #424242;
-	text-align: left;
-	width: 650px;
-	margin: 0 auto;
+	float: left;
 }
 
 header a { color: #424242; }
 header a .lastname { color: #3299BB; }
 
-nav {
-	width: 650px;
-	margin: 0 auto;
-}
-
-nav ul { 
+header ul { 
+		font-size: .8em;
 		float: right;
-		background: #fff; 
-		font-size: 0.8em; 
-		font-weight: bold; 
 		list-style-type: none; 
 		padding: 0;
 		margin: 0;
 }
 
-nav ul li { display: inline; margin: 0; }
+header ul li { display: inline; margin: 0; padding: 0; }
 
-nav ul li a {
+header ul li + li :before { content: " · "; }
+
+header ul li a {
 	text-decoration: none;
 	display: block; 
 	float: left; 
-	line-height: 1.5em; 
-	padding: 0px 15px .5em 15px;
-
-	background: #f9f9f9;
-	border-left: 1px solid #E9E9E9;
-	border-right: 1px solid #E9E9E9;
-	border-bottom: 1px solid #E9E9E9;
-	border-radius: 0px 0px 8px 8px;
+	padding: 0 .2em;
 }
 
-nav ul li a:hover { 
-/*	line-height: 2em; */
-/*	padding-top: .5em; */
-
-	border-left: 1px solid #E9E9E9;
-	border-right: 1px solid #E9E9E9;
-	border-bottom: 1px solid #E9E9E9;
-	border-radius: 0px 0px 8px 8px;
-}
-
-section { clear: both; width: 650px; margin: 3em auto; font-size: .9em; line-height: 1.5em; }
+section { clear: both; width: 650px; margin: 3.5em auto; font-size: .9em; line-height: 1.5em; }
 section a[href^="http"]:hover { border-bottom: 2px solid #FF9900; }
 section img { 
 	border: 1px solid #BCBCBC; 
