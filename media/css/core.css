@@ -47,7 +47,7 @@ table {
 body {
 	background: #fff;
 	font: normal 100% Helvetica, Arial, sans-serif;
-	color: #000;
+	color: #444;
 
 	margin: 20px auto;
 	padding: 0 1em;
@@ -131,9 +131,17 @@ code, pre {
 	font-family: Courier;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	color: #222;
+}
+
 p {
 	margin-bottom: 0;
 } 
+
+p>img {
+	margin-bottom: 1em;
+}
 
 p + p {
 	text-indent: 2em;
