@@ -131,6 +131,15 @@ code, pre {
 	font-family: Courier;
 }
 
+p {
+	margin-bottom: 0;
+} 
+
+p + p {
+	text-indent: 2em;
+	margin-top: 0;
+}
+
 pre {
 	overflow: scroll;
 	margin: 15px 0;
