@@ -2,6 +2,7 @@
 layout: post
 title: Yea, that's me in the corner
 tags: ['photos']
+category: ['blog']
 ---
 
 ![Corner :: Nikon D70 : 1/80s : f/22 : ISO 200](/media/2004/09/corner.jpg)

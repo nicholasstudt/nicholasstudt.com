@@ -2,6 +2,7 @@
 layout: post
 title: Tranquility
 tags: ['photos']
+category: ['blog']
 ---
 
 ![Tranquil :: Nikon D70 : 1/30s : f/16 : ISO 200](/media/2004/08/tranquility.jpg)

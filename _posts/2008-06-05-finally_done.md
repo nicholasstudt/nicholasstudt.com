@@ -2,6 +2,7 @@
 layout: post
 title: Finally Done
 tags: ['knitting']
+category: ['blog']
 ---
 
 ![Shawl :: Nikon D70](/media/2008/06/stole.jpg)

@@ -2,6 +2,7 @@
 layout: post
 title: Walk a mile
 tags: ['photos']
+category: ['blog']
 ---
 
 ![Shoes :: Nikon D70 : 1/160s : f/14 : ISO 200](/media/2004/09/shoes.jpg)

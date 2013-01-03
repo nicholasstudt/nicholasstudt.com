@@ -2,6 +2,7 @@
 layout: post
 title: Needle Cases
 tags: ['knitting', 'photos']
+category: ['blog']
 ---
 
 ![Needle Cases :: Nikon D70](/media/2008/01/needlecases.jpg)

@@ -2,6 +2,7 @@
 layout: post
 title: Modern Art
 tags: ['photos']
+category: ['blog']
 ---
 
 ![Modern :: Nikon D70 : 1/60s : f/22 : ISO 200](/media/2004/08/modern.jpg)

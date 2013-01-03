@@ -2,6 +2,7 @@
 layout: post
 title: I'm Coloring
 tags: ['zooey']
+category: ['blog']
 ---
 
 ![Watching](/media/2012/20120927-6780-600px.jpg)

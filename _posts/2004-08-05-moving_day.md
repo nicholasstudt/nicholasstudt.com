@@ -2,6 +2,7 @@
 layout: post
 title: Moving Day
 tags: ['photos']
+category: ['blog']
 ---
 
 ![Moving Day :: Nikon D70 : 1/80s : f/6.3 : ISO 200](/media/2004/08/moveday.jpg)

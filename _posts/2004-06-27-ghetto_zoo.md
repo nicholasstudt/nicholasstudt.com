@@ -2,6 +2,7 @@
 layout: post
 title: Ghetto Zoo
 tags: ['photos']
+category: ['blog']
 ---
 
 ![Ghetto Zoo:: Nikon D70 : 1/60s : f/4.5 : ISO 200](/media/2004/06/ghetto-zoo.jpg)

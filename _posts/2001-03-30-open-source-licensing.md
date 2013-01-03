@@ -2,6 +2,7 @@
 layout: post
 title: Open Source Licensing
 tags: ['*nix']
+category: ['blog']
 ---
 
 The "Open Source" label has become so common that users rarely consider

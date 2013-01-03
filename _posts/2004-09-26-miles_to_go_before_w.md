@@ -2,6 +2,7 @@
 layout: post
 title: Miles to go before we sleep...
 tags: ['photos']
+category: ['blog']
 ---
 
 ![Lousiana :: Nikon D70 : 1/40s : f/22 : ISO 200](/media/2004/09/lousiana.jpg)
