@@ -115,7 +115,6 @@ section { clear: both; width: 650px; margin: 3.5em auto; font-size: .9em; line-h
 section a[href^="http"]:hover { border-bottom: 2px solid #FF9900; }
 section img { 
 	border: 1px solid #BCBCBC; 
-	width: 100%;  
 	/* margin: .5em auto; */
 	-moz-box-shadow: 10px 10px 5px #888;
 	-webkit-box-shadow: 10px 10px 5px #888;
@@ -198,7 +197,7 @@ div.blog_archive h2 {
 
 div.blog_archive .column1 {	
 	float: left;
-	width: 70%;
+	width: 75%;
 	margin-bottom: 2em;
 }
 
@@ -208,7 +207,10 @@ div.blog_archive .column2 {
 	margin-bottom: 2em;
 }
 
-div.blog_archive ul { list-style-type: none; margin: 0; }
+ul.archive li { clear: both; border-bottom: 1px dotted #f9f9f9;
+margin-bottom: .5em; }
+ul.archive li span { float: right; font-size: .9em; }
+ul.archive { list-style-type: none; margin: 0; }
 
 /* includes/author.html */
 div.blog_author h2 {

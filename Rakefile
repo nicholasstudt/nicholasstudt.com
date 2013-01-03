@@ -45,26 +45,32 @@ layout: default
 title: "Archive of '#{tag}'"
 syntax-highlighting: yes
 ---
-  <h1 class="title">Archive of tag "#{tag}"</h1>
-  <ul>
+<div class="blog_archive">
+<h1>Archives</h1>
+<div class="column1">
+  <h2 class="title">\##{tag} by date</h1>
+  <ul class="archive">
   {% for post in site.posts %}
     {% for tag in post.tags %}
       {%if tag == "#{tag}" %}
-        {% assign test_month = post.date | date: "%B %Y" %}
-        {% if current_month != test_month %}
-          {% assign current_month = test_month %}
-          </ul>
-          <h2>{{ current_month }}</h2>
-          <ul>
-        {% endif %}
         <li>
           <a href="{{ post.url }}">{{ post.title }}</a>
-          <span>{{ post.date | date: "%d %B" }}</span>
+          <span>{{ post.date | date: "%B %d, %Y" }}</span>
         </li>
       {%endif%}
     {%endfor%}
   {% endfor %}
   </ul>
+</div>
+
+<div class="column2">
+<h2>By tag</h2>
+<p>
+{% include tag_cloud.html %}
+</p>
+
+</div>
+</div>
 HTML
 
     FileUtils.mkdir_p($cwd + "/archive/tags/#{tag}")
