@@ -9,7 +9,6 @@ layout: default
 
   <div class="content">
 	{{ content }}  
-    <div class="byline"></div>
     <div class="tags">
 		{% assign tag_count = page.tags | size %}
 		<strong>tag{% if tag_count > 1 %}s{%endif %}:</strong>
@@ -18,6 +17,5 @@ layout: default
 		{% endfor %}
 	</div>
   </div>
-  <div class="comments"></div> 
 </div>
 

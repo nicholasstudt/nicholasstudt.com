@@ -45,11 +45,11 @@ layout: default
 title: "Archive of '#{tag}'"
 syntax-highlighting: yes
 ---
-<div class="blog_archive">
-<h1>Archives</h1>
+<h1>Archive</h1>
+<div id="archive">
 <div class="column1">
   <h2 class="title">\##{tag} by date</h1>
-  <ul class="archive">
+  <ul>
   {% for post in site.posts %}
     {% for tag in post.tags %}
       {%if tag == "#{tag}" %}
