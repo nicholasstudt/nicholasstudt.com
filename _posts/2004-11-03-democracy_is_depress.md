@@ -2,6 +2,7 @@
 layout: post
 title: Democracy is depressing
 tags: ['photos']
+category: ['blog']
 ---
 
 ![Democracy :: Nikon D70 : 1/60s : f/4.5 : Flash : ISO 200](/media/2004/11/democracy.jpg)

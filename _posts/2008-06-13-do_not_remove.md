@@ -2,6 +2,7 @@
 layout: post
 title: Do not remove
 tags: ['photos']
+category: ['blog']
 ---
 
 ![Bench Roses :: Nikon D70](/media/2008/06/bench.jpg)

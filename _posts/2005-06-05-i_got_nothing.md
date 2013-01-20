@@ -2,6 +2,7 @@
 layout: post
 title: I got nothing.
 tags: ['photos']
+category: ['blog']
 ---
 
 

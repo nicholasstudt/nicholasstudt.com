@@ -2,6 +2,7 @@
 layout: post
 title: Mountain stream 
 tags: ['photos']
+category: ['blog']
 ---
 
 ![Stream :: Nikon D70 : 1/200s : f/10 : ISO 200](/media/2004/08/stream.jpg)

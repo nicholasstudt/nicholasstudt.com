@@ -2,6 +2,7 @@
 layout: post
 title: Bronze Boy
 tags: ['photos']
+category: ['blog']
 ---
 
 ![Bronze Boy :: Nikon D70 : 1/40s : f/16 : ISO 200](/media/2004/08/bronze_boy.jpg)

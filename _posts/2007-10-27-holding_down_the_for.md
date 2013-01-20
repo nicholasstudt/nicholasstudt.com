@@ -2,6 +2,7 @@
 layout: post
 title: Holding down the fort
 tags: ['photos']
+category: ['blog']
 ---
 
 ![Holding Down :: Nikon D70](/media/2007/10/down.jpg)

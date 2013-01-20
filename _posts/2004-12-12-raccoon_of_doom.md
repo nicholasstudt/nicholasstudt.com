@@ -2,6 +2,7 @@
 layout: post
 title: Raccoon of Doom
 tags: ['photos']
+category: ['blog']
 ---
 
 ![Racoon :: Nikon D70 : 1/60s : f/9 : Flash : ISO 200](/media/2004/12/racoon.jpg)

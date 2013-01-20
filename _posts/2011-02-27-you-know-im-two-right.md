@@ -2,6 +2,7 @@
 layout: post
 title: You know I'm two, right?
 tags: ['zooey']
+category: ['blog']
 ---
 
 ![I'm Two](/media/2011/02/im_two.jpg)

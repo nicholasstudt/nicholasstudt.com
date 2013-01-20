@@ -2,6 +2,7 @@
 layout: post
 title: Too much Bronzer
 tags: ['photos']
+category: ['blog']
 ---
 
 ![Boulder  Bronzer :: Nikon D70](/media/2007/07/boulder.jpg)

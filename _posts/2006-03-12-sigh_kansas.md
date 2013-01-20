@@ -2,6 +2,7 @@
 layout: post
 title: Sigh, Kansas
 tags: ['photos']
+category: ['blog']
 ---
 
 ![Tornado :: Nikon D70 : 1/124s : f/5.6 : ISO 200](/media/2006/03/tornado.jpg)

@@ -15,17 +15,18 @@
 <body>
 
 <header>
-	<a href="/">Nicholas<span class="lastname">Studt</span></a>
+	<div class="holder">
+		<div class="name">
+			<a href="/">Nicholas<span class="lastname">Studt</span></a>
+		</div>
+	
+		<ul>
+			<li><a href="/about/">About</a></li>
+			<li><a href="/archive/">Archive</a></li>
+			<li><a href="/code/">Code</a></li>
+		</ul>
+	</div>
 </header>
-
-<nav>
-	<ul>
-		<li><a href="/">Home</a></li>
-		<li><a href="/about/">About</a></li>
-		<li><a href="/archive/">Archive</a></li>
-		<li><a href="/code/">Code</a></li>
-	</ul>
-</nav>
 
 <section>
 {{ content }}
