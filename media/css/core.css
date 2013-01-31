@@ -19,29 +19,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 /* #FF9900, #424242, #E9E9E9, #BCBCBC, #3299BB */
 body {
@@ -164,7 +141,6 @@ sup  {
 	font-size: .8em;
 }
 
-
 div.footnotes { margin-top: 1em; padding-top: .5em;
 				border-top: 1px solid #E9E9E9; 
 				border-bottom: 1px solid #E9E9E9; 
@@ -172,13 +148,10 @@ div.footnotes { margin-top: 1em; padding-top: .5em;
 div.footnotes hr { display: none; }
 div.footnotes ol { list-style: decimal; margin-left: 1em;}
 
-
 /* Make the footer look reasonable */
 footer { clear: both; border-top: 1px solid #E9E9E9; font-size: 0.8em; text-align: center; padding: 1em 0;
 }
 footer a { color: #000; }
-
-.right { text-align: right; }
 
 #archive .column1 {	
 	float: left;
