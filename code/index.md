@@ -55,8 +55,8 @@ A mod_perl application that allows users to create web forms.
 
 Alchemy WebMail is a Web based mod_perl e-mail client. It relies on a
 database for storing user application data and an IMAP server for
-managing the user's e-mail. I wrote this years ago, it is still used by
-the local ISP for their client facing web mail.
+managing the user's e-mail. I wrote this years ago, it was used by
+the local ISP for their client facing web mail until sometime in 2012.
 
 ## [django-form-manager](https://github.com/nicholasstudt/django-form-manager) (retired)
 	
