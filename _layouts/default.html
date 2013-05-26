@@ -16,17 +16,29 @@
 
 <header>
 	<div class="holder">
-		<div class="name">
+		<h1>
 			<a href="/">Nicholas<span class="lastname">Studt</span></a>
-		</div>
-	
+		</h1>
+
+		<div class="nav">
 		<ul>
 			<li><a href="/about/">About</a></li>
-			<li><a href="/archive/">Archive</a></li>
 			<li><a href="/code/">Code</a></li>
+			<li><a href="/archive/">Archive</a></li>
 		</ul>
+
+		<form action="http://google.com/search" method="get">
+			<fieldset role="search">
+			<input type="hidden" name="q" value="site:nicholasstudt.com" />
+			<input class="search" type="text" name="q" results="0" placeholder="Search" accesskey="/" />
+			</fieldset>
+		</form>
+		</div>
 	</div>
 </header>
+
+<nav>
+</nav>
 
 <section>
 {{ content }}
@@ -36,6 +48,8 @@
 	<p>
 		Copyright 2001-{{ site.time | date: "%Y" }}
 		<a href="mailto:nicholas@nicholasstudt.com">Nicholas Studt</a>
+		-
+		<a href="/atom.xml">RSS</a>
 	</p>
 </footer>
 

@@ -11,11 +11,23 @@ layout: default
 	{{ content }}  
     <div class="tags">
 		{% assign tag_count = page.tags | size %}
-		<strong>tag{% if tag_count > 1 %}s{%endif %}:</strong>
+		posted in
 		{% for tag in page.tags %}
-			<a href="/archive/tags/{{ tag }}">#{{ tag }}</a>{% if forloop.last %}{% else %}, {% endif %}
+			<a href="/archive/tags/{{ tag }}">{{ tag }}</a>{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}
 	</div>
   </div>
+
+  <div class="pagination">
+	{% if page.previous %}
+	<a href="{{ page.previous.url }}" class="prev">⇜ {{ page.previous.title }}</a>
+	{% endif %}
+
+	{% if page.next %}
+	<a href="{{ page.next.url }}" class="next">{{ page.next.title }} ⇝</a>
+	{% endif %}
+  </div>
+
 </div>
+
 
