@@ -36,8 +36,6 @@ task :tags do
   site = Jekyll::Site.new(options)
   site.read_posts('')
 
-  # Remove tags directory before regenerating
-  FileUtils.rm_rf($cwd + "/archive/tags")
 
   site.tags.sort.each do |tag, posts|
     html = <<-HTML
@@ -58,7 +56,7 @@ syntax-highlighting: yes
 		  <!--
 		  posted in 
 		{% for tag in post.tags %}
-			<a href="/archive/tags/{{ tag }}">{{ tag }}</a>{% if forloop.last %}{% else %}, {% endif %}
+			<a href="/archive/{{ tag }}">{{ tag }}</a>{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}
 			-->
         </li>
@@ -70,8 +68,10 @@ syntax-highlighting: yes
 </div>
 HTML
 
-    FileUtils.mkdir_p($cwd + "/archive/tags/#{tag}")
-    File.open($cwd + "/archive/tags/#{tag}/index.html", 'w+') do |file|
+    # Remove tags directory before regenerating
+    FileUtils.rm_rf($cwd + "/archive/#{tag}")
+    FileUtils.mkdir_p($cwd + "/archive/#{tag}")
+    File.open($cwd + "/archive/#{tag}/index.html", 'w+') do |file|
       file.puts html
     end
   end
@@ -96,7 +96,7 @@ end
 #  site.tags.sort.each do |tag, posts|
 #    s = posts.count
 #    font_size = ((20 - 10.0*(max_count-s)/max_count)*2).to_i/2.0
-#    html << "<a href=\"/archive/tags/#{tag}\" title=\"Postings tagged #{tag}\" style=\"font-size: #{font_size}px; line-height:#{font_size}px\">#{tag}</a> "
+#    html << "<a href=\"/archive/#{tag}\" title=\"Postings tagged #{tag}\" style=\"font-size: #{font_size}px; line-height:#{font_size}px\">#{tag}</a> "
 #  end
 #  File.open($cwd+'/_includes/tag_cloud.html', 'w+') do |file|
 #    file.puts html

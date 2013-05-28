@@ -13,7 +13,7 @@ layout: default
 		{% assign tag_count = page.tags | size %}
 		posted in
 		{% for tag in page.tags %}
-			<a href="/archive/tags/{{ tag }}">{{ tag }}</a>{% if forloop.last %}{% else %}, {% endif %}
+			<a href="/archive/{{ tag }}">{{ tag }}</a>{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}
 	</div>
   </div>
