@@ -159,6 +159,12 @@ sup  {
 	font-size: .8em;
 }
 
+hr { 
+	border: 0;
+	height: 0;
+	border-top: 1px solid #E9E9E9; 
+}
+
 div.footnotes { margin-top: 1em; padding-top: .5em;
 				border-top: 1px solid #E9E9E9; 
 				border-bottom: 1px solid #E9E9E9; 
