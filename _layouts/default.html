@@ -14,25 +14,24 @@
 <body>
 
 <header>
-	<div class="holder">
-		<h1><a href="/">Nicholas <span class="lastname">Studt</span></a></h1>
-
-		<div class="nav">
-		<ul>
-			<li><a href="/about/">About</a></li>
-			<li><a href="/code/">Code</a></li>
-			<li><a href="/archive/">Archive</a></li>
-		</ul>
-
-		<form action="http://google.com/search" method="get">
-			<fieldset role="search">
-			<input type="hidden" name="q" value="site:nicholasstudt.com" />
-			<input class="search" type="text" name="q" results="0" placeholder="Search" accesskey="/" />
-			</fieldset>
-		</form>
-		</div>
-	</div>
+	<h1><a href="/">Nicholas <span class="lastname">Studt</span></a></h1>
 </header>
+
+<nav>
+	<ul>
+		<li><a href="/about/">About</a></li>
+		<li><a href="/code/">Code</a></li>
+		<li><a href="/archive/">Archive</a></li>
+	</ul>
+
+	<form action="http://google.com/search" method="get">
+		<fieldset role="search">
+		<input type="hidden" name="q" value="site:nicholasstudt.com" />
+		<input class="search" type="text" name="q" results="0" placeholder="Search" accesskey="/" />
+		</fieldset>
+	</form>
+	<br />
+</nav>
 
 <section>
 {{ content }}

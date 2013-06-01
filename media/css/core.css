@@ -45,62 +45,61 @@ blockquote, dd { margin: 1.23em 2em auto 2em; }
 em { font-style: italic; }
 
 header {
-	width: 100%;
-	position: fixed;
-	top: 0; left: 0;
-	line-height: 2em;
-	border-bottom: 1px solid #E9E9E9;
-	background: #f9f9f9;
-}
-
-header div.holder {
-	width: 650px;
-	margin: 0 auto;
-	font-weight: bold;
+	margin: .8em auto 0 auto;
+	text-align: center;
 }
 
 header h1 { 
-	float: left;
-	margin-right: 1em;
-	width: 45%;
+	font-size: 200%;
+	font-weight: bold;
 }
 
 header a { color: #424242; }
 header a .lastname { color: #3299BB; }
 
-header div.nav { 
-	margin: auto;
+nav {
+	margin: 0 auto;
+	width: 650px;
+ 	border-top: 1px solid #E9E9E9; 
+ 	border-bottom: 1px solid #E9E9E9; 
 }
 
-header ul { 
-		font-size: .8em;
-		float: left;
-		list-style-type: none; 
-		padding: 0;
-		margin: 0;
+nav br { clear: both; }
+
+nav ul { 
+	font-size: .9em;
+	list-style-type: none; 
+	margin: 0;
 }
 
-header ul li { display: inline; margin: 0; padding: 0; }
-header ul li + li :before { content: " · "; }
-header ul li a {
+nav ul li { display: inline; margin: 0; padding: 0; }
+nav ul li + li :before { content: " · "; }
+nav ul li a {
 	text-decoration: none;
 	display: block; 
 	float: left; 
-	padding: 0 .2em;
+	padding: .3em .2em;
 }
 
-header input {
+nav form {
 	float: right;
-	background: #f9f9f9;
-	border: 0px;
-	border-bottom: 1px dashed #ccc;
-	padding: .3em;
-	margin: .3em;
-	text-align: right;
-	width: 10em; 
 }
 
-section { clear: both; width: 625px; margin: 3.5em auto; font-size: .9em; line-height: 1.5em; }
+nav input {
+	font-size: .8em;
+	border: 0px;
+	padding: .3em 0;
+	margin: 0px;
+	text-align: right;
+}
+
+section { 
+	clear: both; 
+	width: 625px; 
+	margin: 1.5em auto; 
+	font-size: .9em; 
+	line-height: 1.5em;
+}
 section a[href^="http"]:hover { border-bottom: 2px solid #FF9900; }
 section img { 
 	border: 1px solid #BCBCBC;
@@ -173,7 +172,10 @@ div.footnotes hr { display: none; }
 div.footnotes ol { list-style: decimal; margin-left: 1em;}
 
 /* Make the footer look reasonable */
-footer { clear: both; border-top: 1px solid #E9E9E9; font-size: 0.8em; text-align: center; padding: 1em 0;
+footer { 
+	margin: 0 auto;
+	width: 650px; 
+	clear: both; border-top: 1px solid #E9E9E9; font-size: 0.8em; text-align: center; padding: 1em 0;
 }
 /* footer a { color: #000; } */
 
