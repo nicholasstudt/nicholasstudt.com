@@ -12,7 +12,7 @@ task :default => :build
 
 desc "Serve on Localhost with port 8080"
 task :preview => :tags do
-	sh "jekyll --server 8080 --auto"
+	sh "jekyll serve -P 8080 --watch"
 end
  
 desc 'Build site with Jekyll.'
