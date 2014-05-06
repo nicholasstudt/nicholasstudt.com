@@ -2,7 +2,7 @@
 layout: post
 title: Field in the Field
 tags: ['photos']
-category: ['blog']
+category: 'blog'
 ---
 
 ![Field :: Nikon D70 : 1/50s : f/29 : ISO 200](/media/2004/09/field.jpg)

@@ -2,7 +2,7 @@
 layout: post
 title: Mother's Day
 tags: ['zooey']
-category: ['blog']
+category: 'blog'
 ---
 
 ![Direction :: Nikon D90](/media/2009/05/direction.jpg)

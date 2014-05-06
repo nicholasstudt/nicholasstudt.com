@@ -2,7 +2,7 @@
 layout: post
 title: Potters Lake
 tags: ['photos']
-category: ['blog']
+category: 'blog'
 ---
 
 ![Potters :: Nikon D70 : 1/40s : f/20 : ISO 200](/media/2004/09/potters.jpg)

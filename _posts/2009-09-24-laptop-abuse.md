@@ -2,7 +2,7 @@
 layout: post
 title: Laptop Abuse
 tags: ['zooey']
-category: ['blog']
+category: 'blog'
 ---
 
 ![Laptop Abuse :: Nikon D90](/media/2009/09/laptopabuse.jpg)

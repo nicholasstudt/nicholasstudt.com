@@ -2,7 +2,7 @@
 layout: post
 title: I'll sea your ocean...
 tags: ['photos']
-category: ['blog']
+category: 'blog'
 ---
 
 ![Red Flower :: Nikon D70 : 1/320s : f/7.1 : ISO 200](/media/2004/07/flower.jpg)

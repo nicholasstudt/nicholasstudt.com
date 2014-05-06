@@ -2,7 +2,7 @@
 layout: post
 title: Baby Its Cold Outside
 tags: ['karen', 'photos']
-category: ['posts']
+category: 'posts'
 ---
 
 ![Brr](/media/2013/20130129-7129-600px.jpg)

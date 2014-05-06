@@ -2,7 +2,7 @@
 layout: post
 title: Moving again
 tags: ['vanity']
-category: ['blog']
+category: 'blog'
 ---
 
 It's time to update the bookmarks, I've moved domains again. This

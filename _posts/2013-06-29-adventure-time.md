@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Adventure Time
 tags: ['photos']
-category: ['posts']
+category: 'posts'
 ---
 
 ![Adventure Time](/media/2013/20130628-6280906-600px.jpg)

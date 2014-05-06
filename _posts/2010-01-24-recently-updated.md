@@ -2,7 +2,7 @@
 layout: post
 title: Recently Updated
 tags: ['vanity']
-category: ['blog']
+category: 'blog'
 ---
 
 Earlier this month I moved this domain and Karen's domain from a real

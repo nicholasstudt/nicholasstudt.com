@@ -2,7 +2,7 @@
 layout: post
 title: The Screamer
 tags: ['photos']
-category: ['blog']
+category: 'blog'
 ---
 
 ![The Screamer :: Nikon D70](/media/2007/09/screamer.jpg)

@@ -2,7 +2,7 @@
 layout: post
 title: Che's New Hat
 tags: ['knitting']
-category: ['blog']
+category: 'blog'
 ---
 
 ![Che :: Nikon D70](/media/2007/03/che.jpg)

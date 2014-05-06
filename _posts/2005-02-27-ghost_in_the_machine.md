@@ -2,7 +2,7 @@
 layout: post
 title: Ghost in the Machine
 tags: ['photos']
-category: ['blog']
+category: 'blog'
 ---
 
 ![Altair :: Nikon D70 : 1/12s : f/4.5 : ISO 200](/media/2005/02/altair8800.jpg)

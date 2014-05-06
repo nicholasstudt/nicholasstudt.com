@@ -2,7 +2,7 @@
 layout: post
 title: Jazz Hands
 tags: ['photos']
-category: ['blog']
+category: 'blog'
 ---
 
 ![Hands :: Nikon D70](/media/2007/11/hands.jpg)

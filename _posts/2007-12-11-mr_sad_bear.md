@@ -2,7 +2,7 @@
 layout: post
 title: Mr. Sad Bear
 tags: ['photos']
-category: ['blog']
+category: 'blog'
 ---
 
 ![Sad Bear :: Nikon D70](/media/2007/12/sad2.jpg)

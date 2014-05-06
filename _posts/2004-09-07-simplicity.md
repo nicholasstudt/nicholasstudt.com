@@ -2,7 +2,7 @@
 layout: post
 title: Simplicity
 tags: ['photos']
-category: ['blog']
+category: 'blog'
 ---
 
 ![Simplicity :: Nikon D70 : 1/500s : f/4.5 : ISO 200](/media/2004/09/simplicity.jpg)

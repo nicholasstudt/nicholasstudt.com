@@ -2,7 +2,7 @@
 layout: post
 title: The elusive weresmirk
 tags: ['zooey']
-category: ['blog']
+category: 'blog'
 ---
 
 ![The weresmirk](/media/2011/10/were-smirk.jpg)

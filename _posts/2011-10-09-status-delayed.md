@@ -2,7 +2,7 @@
 layout: post
 title: "Status: Delayed"
 tags: ['travel']
-category: ['blog']
+category: 'blog'
 ---
 
 ![Lincoln](/media/2011/10/lincoln.jpg)

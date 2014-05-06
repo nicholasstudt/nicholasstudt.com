@@ -2,7 +2,7 @@
 layout: post
 title: Journey
 tags: ['photos']
-category: ['blog']
+category: 'blog'
 ---
 
 ![Journey :: Nikon D70 : 1/320s : f/4.5 : ISO 200](/media/2004/06/journey.jpg)
